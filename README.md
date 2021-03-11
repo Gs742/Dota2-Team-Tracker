@@ -4,8 +4,7 @@
 
 `yarn build` to create a build directory
 
-This is my first commit]
-test
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
