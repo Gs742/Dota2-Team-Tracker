@@ -1,7 +1,8 @@
 import React from 'react'
 //import { Link } from 'react-router-dom'
-const TeamTile = ({ teamId, name, tag, logoUrl, wins, losses }) => {
-
+const TeamTile = ({ teamId, name, tag, logoUrl, wins, losses, rating }) => {
+//team_id and logo_url
+  const totalGames = wins + losses
   return (
     
     <div className="column is-one-quarter-desktop is-one-third-tablet">
@@ -16,8 +17,10 @@ const TeamTile = ({ teamId, name, tag, logoUrl, wins, losses }) => {
           </figure>
         </div>
         <div className="card-content">
-          <h5>Wins:{wins}</h5>
-          <h5>Losses:{losses}</h5>
+          <h5>Rating: {rating}</h5>
+          <h5>Total Matches: {totalGames}</h5>
+          <h5>Wins: {wins}</h5>
+          <h5>Losses: {losses}</h5>
         </div>
         <div className="card-footer">
           <h6>Team ID: {teamId}</h6>
