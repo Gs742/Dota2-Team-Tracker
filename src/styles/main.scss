@@ -1,5 +1,9 @@
 @import '~bulma/bulma.sass';
 
+
+#root{
+  background-color: #381e1c ;
+}
 .primary{
 background-color: #27ae9e;
 }
@@ -7,28 +11,37 @@ background-color: #27ae9e;
 background-color: #244f62;
 }
 .trim{
-  background-color: #656da2;
+  background-color: #b4bcd4;
 }
 .background{
   background-color: #381e1c ;
 }
 .nav{
-  //sit top left of screen
-  //hold 4 buttons
-  background-color: red;
-  height: 100%;
+  height: auto;
+  width:50%;
+  margin:auto;
 }
 
 .homeIMG{
-  background-size: contain;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
+.padding{
+  padding:0;
+}
+
 
 .teamIMG{
-  height: 256px !important; 
-  width: 256px !important;
+  height: 300px !important; 
+  width: 300px !important;
   margin: auto;
 }
-
-.center{
-  justify-content: center;
+.teamCard{
+  height: 100%;
+  flex-grow: 1;
+}
+.cardMargin{
+  margin: 10px;
+  flex-grow: inherit;
 }

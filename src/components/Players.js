@@ -14,8 +14,8 @@ const Players = () => {
   }, [])
 
   return (
-    <div className="section">
-      <div className="container">
+    <div className="section primary padding box">
+      <div className="container background box">
         <div className="columns is-multiline">
           {players.map( player => (
             <PlayerTile key={player.account_id} {...player} />

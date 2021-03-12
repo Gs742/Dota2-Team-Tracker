@@ -17,9 +17,9 @@ const Teams = () => {
 
 
   return (
-    <div className="section">
-      <div className="container">
-        <div className="columns is-multiline">
+    <div className="section background">
+      <div className="container secondary">
+        <div className="columns primary box is-multiline">
           { teams.map( team => (
             <TeamTile key={team.team_id} {...team} />
           ))}

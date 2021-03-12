@@ -6,7 +6,7 @@ const TeamTile = ({ team_id, name, tag, logo_url, wins, losses, rating }) => {
   const totalGames = wins + losses
   return (
     
-    <div className="column is-one-quarter-desktop is-one-third-tablet">
+    <div className="column is-one-quarter-desktop is-one-third-tablet teamCard">
       <Link to={`/teams/${team_id}`}>
         <div className="card">
           <div className="card-header">
