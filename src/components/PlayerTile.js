@@ -1,6 +1,8 @@
+/*eslint-disable camelcase */
 import React from 'react'
+
 //import { Link } from 'react-router-dom'
-const PlayerTile = ({ teamName,teamId, name, personaname, avatarfull, profileurl, steamid, fantasyrole }) => {
+const PlayerTile = ({ team_name,team_id, name, personaname, avatarfull, profileurl, steamid, fantasy_role }) => {
 //team_id and fantasy_role need changing team_name
   return (
     
@@ -16,13 +18,13 @@ const PlayerTile = ({ teamName,teamId, name, personaname, avatarfull, profileurl
           </figure>
         </div>
         <div className="card-content">
-          <h5>Team position:{fantasyrole}</h5>
+          <h5>Team position:{fantasy_role}</h5>
           <h5>Steam ID:{steamid}</h5>
           <a href={profileurl}>Steam Profile</a>
         </div>
         <div className="card-footer">
-          <h6>Team Name: {teamName}</h6>
-          <h6>Team ID: {teamId}</h6>
+          <h6>Team Name: {team_name}</h6>
+          <h6>Team ID: {team_id}</h6>
             
         </div>
       </div>

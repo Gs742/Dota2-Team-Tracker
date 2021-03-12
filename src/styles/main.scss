@@ -1,6 +1,17 @@
 @import '~bulma/bulma.sass';
 
-
+.primary{
+background-color: #27ae9e;
+}
+.secondary{
+background-color: #244f62;
+}
+.trim{
+  background-color: #656da2;
+}
+.background{
+  background-color: #381e1c ;
+}
 .nav{
   //sit top left of screen
   //hold 4 buttons
@@ -10,4 +21,14 @@
 
 .homeIMG{
   background-size: contain;
+}
+
+.teamIMG{
+  height: 256px !important; 
+  width: 256px !important;
+  margin: auto;
+}
+
+.center{
+  justify-content: center;
 }
